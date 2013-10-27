@@ -21,11 +21,3 @@ class ActionDispatch::IntegrationTest
   include Capybara::DSL
 end
 
-def sign_in
-  visit user_session_path
-  fill_in "Email", with: users(:kaylee).email
-  fill_in "Password", with: "strawberry"
-  click_button "Sign in"
-  page.wont_have_content "Invalid email or password"
-end
-
