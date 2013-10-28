@@ -10,6 +10,8 @@ gem 'devise'
 
 group :development, :test do
   gem 'minitest-rails-capybara'
+  gem 'pry'
+  gem 'pry-debugger'
 end
 
 group :test do
