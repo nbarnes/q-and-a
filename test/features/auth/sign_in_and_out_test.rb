@@ -7,8 +7,8 @@ feature "Sign in and out" do
     page.must_have_content "Login"
     page.wont_have_content "You are logged in"
 
-    fill_in "Email", with: users(:agent).email
-    fill_in "Password", with: "abetterworld"
+    fill_in "Email", with: users(:author01).email
+    fill_in "Password", with: "author01"
 
     click_button "Sign in"
 

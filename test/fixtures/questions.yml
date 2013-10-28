@@ -1,5 +1,11 @@
-fox:
-  question_text: What does the fox say?
+q1:
+  question_text: the_first_question
 
-how_many:
-  question_text: How many paths must a man walk down?
+q2:
+  question_text: the_second_question
+
+q3:
+  question_text: the_third_question
+
+q4:
+  question_text: the_fourth_question

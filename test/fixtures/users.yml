@@ -1,12 +1,11 @@
-mal:
-  email: malreynolds@serenity.org
-  encrypted_password: <%= User.new.send(:password_digest, 'serenity') %>
+author01:
+  email: author01@example.com
+  encrypted_password: <%= User.new.send(:password_digest, 'author01') %>
 
+author02:
+  email: author02@example.com
+  encrypted_password: <%= User.new.send(:password_digest, 'author02') %>
 
-agent:
-  email: unknown@alliance.gov
-  encrypted_password: <%= User.new.send(:password_digest, 'abetterworld') %>
-
-kaylee:
-  email: wrenchwench@serenity.org
-  encrypted_password: <%= User.new.send(:password_digest, 'strawberry') %>
+author03:
+  email: author03@example.com
+  encrypted_password: <%= User.new.send(:password_digest, 'author03') %>

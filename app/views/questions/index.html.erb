@@ -6,10 +6,11 @@
     <th></th>
     <th></th>
     <th></th>
+    <th></th>
   </tr>
 
 <% @questions.each do |question| %>
-  <tr>
+  <tr id="<%= dom_id(question) %>">
     <td><%= question.question_text %></td>
     <td><%= link_to 'Show', question %></td>
     <td><%= link_to 'Edit', edit_question_path(question) %></td>
