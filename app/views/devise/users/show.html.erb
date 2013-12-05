@@ -1,0 +1,10 @@
+
+<br />
+<br />
+
+<h1><%= current_user.email %></h1>
+
+<% current_user.questions.each do |q| %>
+  <%= link_to q.question_text, q %>
+  <br />
+<% end %>
